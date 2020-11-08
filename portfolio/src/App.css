@@ -61,7 +61,7 @@ div.pic-column {
 }
 
 img.profile-pic {
-  max-width: 14vw;
+  max-width: calc(16px + 12vw);
   margin: 20px 0 20px 0;
   padding-right: 20px;
 }
@@ -70,13 +70,19 @@ p.p-about {
   font-size: calc(12px + .5vw);
 }
 
-/* Skills */
+/* Skills Component*/
 h2.vertical {
   writing-mode: vertical-lr;
   text-orientation: upright;
   font-size: calc(14px + 4vw);
-  margin-left: 0;
+  margin: 20px 0 0 0;
   letter-spacing: calc(10px + 1vw);
+  border: 3px solid black;
+}
+
+div.icon-col {
+  margin-top: 30px;
+  text-align: center;
 }
 
 svg.svgicon {
@@ -84,36 +90,18 @@ svg.svgicon {
   margin: 20px;
 }
 
-/* div.yellow-box{
-  background-color: yellow;
-  height: 350px;
-  /* max-width: 30vw; */
+/* media queries */
 
+/* change Skills Title to horizontal from vertical */
+@media only screen and (max-width : 768px) {
+  h2.vertical {
+    writing-mode: horizontal-tb;
+    margin-left: 20px;
+  }
 
-/* div.img-layer-mid {
-  display: flex;
-  justify-content: center;
-  background-color: black;
-  /* margin-left: 500px; */
-/* } */
-/*
-div.diagonal-box {
-  margin-top: -530px;
-  height: 280px;
-  background-color: black;
-  text-align: right;
-  transform: skewY(25deg);
-} */
-
-/* div.diagonal-box:before {
-
-/*
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background-image: linear-gradient(45deg, #654ea3, #eaafc8);
-  transform: skewY(-11deg); */
+  div.icon-col {
+    margin: 0 30px 0 30px;
+  }
+}
 
 
