@@ -1,0 +1,119 @@
+body {
+  background-color: #fbeb12d4;
+}
+
+/* Home page */
+div.jumbotron {
+  /* background-color: rgb(247, 242, 88); */
+  background-image: url("./assets/img/honeycomb.jpg");
+  text-align: center;
+  background-size: cover;
+  min-height: 100vh;
+  margin-bottom: 0;
+}
+
+div.home-buttons {
+  margin-top: 30px;
+}
+
+a.home-button {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  /* max-width: 15vw; */
+  margin: 20px;
+  color: black;
+  font-size: calc(28px + 4vw);
+  text-align: center;
+}
+
+a.home-button:hover {
+  background-color: rgba(245, 245, 245, 0.255);
+  color: darkslategrey
+}
+
+img.home-img {
+  max-width: calc(50px + 10vw);
+}
+
+/* navbar */
+.nav-top {
+  z-index: 1;
+}
+
+/* About section */
+img.flower-img {
+  max-width: 25vw;
+}
+
+h1.about-name {
+  margin-top: 30px;
+}
+
+div.first-row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+div.pic-column {
+  text-align: center;
+  padding-right: 20px;
+}
+
+img.profile-pic {
+  max-width: 14vw;
+  margin: 20px 0 20px 0;
+  padding-right: 20px;
+}
+
+p.p-about {
+  font-size: calc(12px + .5vw);
+}
+
+/* Skills */
+h2.vertical {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  font-size: calc(14px + 4vw);
+  margin-left: 0;
+  letter-spacing: calc(10px + 1vw);
+}
+
+svg.svgicon {
+  font-size: calc(12px + 3vw);
+  margin: 20px;
+}
+
+/* div.yellow-box{
+  background-color: yellow;
+  height: 350px;
+  /* max-width: 30vw; */
+
+
+/* div.img-layer-mid {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  /* margin-left: 500px; */
+/* } */
+/*
+div.diagonal-box {
+  margin-top: -530px;
+  height: 280px;
+  background-color: black;
+  text-align: right;
+  transform: skewY(25deg);
+} */
+
+/* div.diagonal-box:before {
+
+/*
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: linear-gradient(45deg, #654ea3, #eaafc8);
+  transform: skewY(-11deg); */
+
+
