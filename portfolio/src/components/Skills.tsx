@@ -16,7 +16,7 @@ import herokuIcon from '@iconify-icons/simple-icons/heroku';
 
 const Skills = () => {
   return (
-    <Col md="4" xs="12">
+    <Col md="4" xs="12" className="skills-col">
         <Row className="mr-0">
           <Col md="3" sm="12">
             <h2 className="vertical">SKILLS</h2>
