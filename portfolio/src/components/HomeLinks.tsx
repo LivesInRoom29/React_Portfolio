@@ -8,7 +8,7 @@ interface HomeLinkProps {
   imagename: string //not using this at the moment - may try to change images on links
 }
 
-function HomeLinks(props: HomeLinkProps) {
+const HomeLinks = (props: HomeLinkProps) => {
   // let image = props.imagename === "honeypot" ? honeypot : bee;
   // let imgAlt = props.imagename === "honeypot" ? "honeypot" : "bee";
 
