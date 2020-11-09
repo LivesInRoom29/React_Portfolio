@@ -8,6 +8,7 @@ import githubIcon from '@iconify-icons/simple-icons/github';
 import linkedinIcon from '@iconify-icons/simple-icons/linkedin';
 import emailIcon from '@iconify-icons/carbon/email';
 
+
 import Navigation from "../Nav";
 import Footer from "../Footer";
 
