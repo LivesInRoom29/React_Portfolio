@@ -71,13 +71,17 @@ p.p-about {
 }
 
 /* Skills Component*/
+div.skills-col {
+  background-color: black;
+  color: white;
+}
 h2.vertical {
   writing-mode: vertical-lr;
   text-orientation: upright;
   font-size: calc(14px + 4vw);
   margin: 20px 0 0 0;
   letter-spacing: calc(10px + 1vw);
-  border: 3px solid black;
+  border: 3px solid white;
 }
 
 div.icon-col {
@@ -88,6 +92,49 @@ div.icon-col {
 svg.svgicon {
   font-size: calc(12px + 3vw);
   margin: 20px;
+}
+
+/* Projects */
+h1.project-heading {
+  text-align: center;
+  font-weight: bold;
+}
+
+h2.project-heading {
+  font-size: calc(12px + 2.2vw);
+}
+
+h3.project-heading {
+  font-size: calc(10px + 2vw);
+  font-style: italic;
+}
+
+div.project-row {
+  background-color: rgb(41, 43, 44);
+  margin: 30px 30px 30px 30px;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+img.project-img {
+  width: calc(80px + 20vw);
+}
+
+a.project-link {
+  background-color: #fbeb12;
+  border: none;
+  color: black;
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+a.project-link:hover {
+  background-color: #fbeb1265;
+}
+
+svg.project-link {
+  font-size: 20px;
 }
 
 /* media queries */
