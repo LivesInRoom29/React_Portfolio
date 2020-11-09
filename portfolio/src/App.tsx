@@ -4,6 +4,9 @@ import Home from "./components/views/Home";
 import About from "./components/views/About";
 import Projects from "./components/views/Projects";
 import Contact from "./components/views/Contact";
+import Credits from "./components/views/Credits";
+import Resume from "./components/views/Resume";
+
 import './App.css';
 
 function App() {
@@ -14,6 +17,8 @@ function App() {
         <Route exact path="/about" component={About}/>
         <Route exact path="/projects" component={Projects}/>
         <Route exact path="/contact" component={Contact}/>
+        <Route exact path="/credits" component={Credits}/>
+        <Route exact path="/resume" component={Resume}/>
       </div>
     </Router>
   )
