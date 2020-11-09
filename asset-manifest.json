@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React_Portfolio/static/css/main.089b32b8.chunk.css",
+    "main.js": "/React_Portfolio/static/js/main.20a362ca.chunk.js",
+    "main.js.map": "/React_Portfolio/static/js/main.20a362ca.chunk.js.map",
+    "runtime-main.js": "/React_Portfolio/static/js/runtime-main.b52fa7b7.js",
+    "runtime-main.js.map": "/React_Portfolio/static/js/runtime-main.b52fa7b7.js.map",
+    "static/js/2.a58fddcd.chunk.js": "/React_Portfolio/static/js/2.a58fddcd.chunk.js",
+    "static/js/2.a58fddcd.chunk.js.map": "/React_Portfolio/static/js/2.a58fddcd.chunk.js.map",
+    "static/js/3.cb55328e.chunk.js": "/React_Portfolio/static/js/3.cb55328e.chunk.js",
+    "static/js/3.cb55328e.chunk.js.map": "/React_Portfolio/static/js/3.cb55328e.chunk.js.map",
+    "index.html": "/React_Portfolio/index.html",
+    "static/css/main.089b32b8.chunk.css.map": "/React_Portfolio/static/css/main.089b32b8.chunk.css.map",
+    "static/js/2.a58fddcd.chunk.js.LICENSE.txt": "/React_Portfolio/static/js/2.a58fddcd.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React_Portfolio/static/media/honeycomb.5ebd289b.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b52fa7b7.js",
+    "static/js/2.a58fddcd.chunk.js",
+    "static/css/main.089b32b8.chunk.css",
+    "static/js/main.20a362ca.chunk.js"
+  ]
+}
