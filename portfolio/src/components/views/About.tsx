@@ -1,14 +1,15 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Skills from "../Skills";
 
-
 import Navigation from "../Nav";
+import Footer from "../Footer";
+
 
 
 const About = () => (
-  <>
+  <div className="main-container">
     <Navigation />
     <Row className="mr-0">
       <Col md="3" xs="4" className="pr-0">
@@ -39,9 +40,13 @@ const About = () => (
         </Row>
         <hr />
       </Col>
+
       <Skills />
+
     </Row>
-  </>
+
+    <Footer />
+  </div>
 );
 
 export default About;
