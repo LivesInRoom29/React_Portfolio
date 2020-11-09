@@ -45,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "@iconify-icons/carbon": "^1.0.3",
     "@iconify-icons/simple-icons": "^1.0.9",
     "@iconify/react": "^1.1.3"
   }
