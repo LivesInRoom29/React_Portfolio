@@ -6,8 +6,6 @@ import Skills from "../Skills";
 import Navigation from "../Nav";
 import Footer from "../Footer";
 
-
-
 const About = () => (
   <div className="main-container">
     <Navigation />
