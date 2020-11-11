@@ -27,7 +27,7 @@ const Contact = () => (
         <Row className="d-flex justify-content-center mr-0">
           <Button className="contact-link" href="mailto: molly.kizer@gmail.com" target="_blank"><Icon icon={emailIcon} /></Button>
           <Button className="contact-link hoverable middle" href="https://github.com/LivesInRoom29" target="_blank"><Icon icon={githubIcon} /></Button>
-          <Button className="contact-link hoverable" href="www.linkedin.com/in/mkizer-2b52471a8" target="_blank"><Icon icon={linkedinIcon} /></Button>
+          <Button className="contact-link hoverable" href="https://www.linkedin.com/in/mkizer-2b52471a8" target="_blank"><Icon icon={linkedinIcon} /></Button>
         </Row>
 
         <hr />
