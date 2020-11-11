@@ -1,7 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import NavDropdown from "react-bootstrap/NavDropdown"
+import { NavItem } from "react-bootstrap";
 
 const Navigation = () => {
   return (
@@ -19,7 +21,11 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/React_Portfolio/About">About</Nav.Link>
+          <Nav.Item>
+            <Link to="/About">About</Link>
+          </Nav.Item>
+
+          {/* <Nav.Link href="/React_Portfolio/About">About</Nav.Link> */}
           <Nav.Link href="/React_Portfolio/Projects">Projects</Nav.Link>
           <Nav.Link href="/React_Portfolio/Contact">Contact</Nav.Link>
           <NavDropdown title="Learn More" id="basic-nav-dropdown">
