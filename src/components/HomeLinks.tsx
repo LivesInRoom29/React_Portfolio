@@ -13,7 +13,7 @@ const HomeLinks = (props: HomeLinkProps) => {
     <div>
       <Link to={`/${props.value}`} className="home-button">
         <Button className="home-button">
-          <img src={`./img/${props.imagename}.png`} alt={props.imagename} className="home-img"></img>
+          <img src={`${process.env.PUBLIC_URL}/img/${props.imagename}.png`} alt={props.imagename} className="home-img"></img>
           <h3>{props.value}</h3>
         </Button>
       </Link>

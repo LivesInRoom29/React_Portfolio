@@ -9,7 +9,7 @@ const Navigation = () => {
       <Navbar.Brand href="/">
         <img
           alt=""
-          src="/logoMK192.png"
+          src={`${process.env.PUBLIC_URL}/logoMK192.png`}
           width="40"
           height="40"
           className="d-inline-block align-top"
@@ -19,12 +19,12 @@ const Navigation = () => {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link href="/about">About</Nav.Link>
-          <Nav.Link href="/projects">Projects</Nav.Link>
-          <Nav.Link href="/contact">Contact</Nav.Link>
+          <Nav.Link href="/React_Portfolio/About">About</Nav.Link>
+          <Nav.Link href="/React_Portfolio/Projects">Projects</Nav.Link>
+          <Nav.Link href="/React_Portfolio/Contact">Contact</Nav.Link>
           <NavDropdown title="Learn More" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/resume">Resume</NavDropdown.Item>
-            <NavDropdown.Item href="/credits">Credits</NavDropdown.Item>
+            <NavDropdown.Item href="/React_Portfolio/resume">Resume</NavDropdown.Item>
+            <NavDropdown.Item href="/React_Portfolio/credits">Credits</NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
