@@ -8,7 +8,7 @@ import { NavItem } from "react-bootstrap";
 const Navigation = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="nav-top">
-      <Navbar.Brand href="/">
+      <Navbar.Brand href="/React_Portfolio/">
         <img
           alt=""
           src={`${process.env.PUBLIC_URL}/logoMK192.png`}
@@ -26,7 +26,7 @@ const Navigation = () => {
           </Nav.Item>
 
           {/* <Nav.Link href="/React_Portfolio/About">About</Nav.Link> */}
-          <Nav.Link href="/React_Portfolio/Projects">Projects</Nav.Link>
+          <Nav.Link as={Link} to="/Projects">Projects</Nav.Link>
           <Nav.Link href="/React_Portfolio/Contact">Contact</Nav.Link>
           <NavDropdown title="Learn More" id="basic-nav-dropdown">
             <NavDropdown.Item href="/React_Portfolio/resume">Resume</NavDropdown.Item>
