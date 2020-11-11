@@ -165,17 +165,21 @@ p.contact-phone {
   font-size: 30px;
 }
 
-a.contact-link {
-  background-color: rgba(255, 255, 255, 0);
+a.contact-link, button.contact-link  {
+  background-color: transparent;
   color: black;
   border: none;
   font-size: 30px;
   margin: 15px;
 }
 
-a.contact-link:hover {
+a.contact-link:hover, button.contact-link:hover {
   background-color: black;
   color: #fbeb12;
+}
+
+a.resume-link:hover {
+  background-color: transparent;
 }
 
 p.contact-link {

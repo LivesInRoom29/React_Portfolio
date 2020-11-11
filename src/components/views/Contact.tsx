@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
 import { Icon } from '@iconify/react';
@@ -32,7 +33,10 @@ const Contact = () => (
 
         <hr />
         <p className="contact-link">
-            <Button className="contact-link" href="./assets/files/resumeNov2020.pdf" target="_blank"><Icon icon={documentPdf} />Résumé</Button>
+          <Link to="/resume"  className="contact-link resume-link">
+            <Button className="contact-link"><Icon icon={documentPdf} />Résumé</Button>
+          </Link>
+
         </p>
       </Row>
     </div>
