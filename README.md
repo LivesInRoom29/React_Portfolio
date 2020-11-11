@@ -2,6 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
+Portfolio page; includes an overview of some of the projects that I've done as well as an about section, contact information and an updated resume.
 
 ### Built With:
 * [React](https://reactjs.org/)
