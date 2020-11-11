@@ -43,6 +43,10 @@ img.home-img {
   z-index: 1;
 }
 
+a.dropdownnav {
+  padding: 0;
+}
+
 /* About section */
 img.flower-img {
   max-width: 25vw;

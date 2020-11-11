@@ -33,8 +33,12 @@ const Navigation = () => {
           {/* <Nav.Link as={Link} to="/Projects">Projects</Nav.Link>
           <Nav.Link href="/React_Portfolio/Contact">Contact</Nav.Link> */}
           <NavDropdown title="Learn More" id="basic-nav-dropdown">
-            <NavDropdown.Item href="/React_Portfolio/resume">Resume</NavDropdown.Item>
-            <NavDropdown.Item href="/React_Portfolio/credits">Credits</NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/resume" className="dropdown-item dropdownnav">Resume</Link>
+            </NavDropdown.Item>
+            <NavDropdown.Item>
+              <Link to="/credits" className="dropdown-item dropdownnav">Credits</Link>
+            </NavDropdown.Item>
           </NavDropdown>
         </Nav>
       </Navbar.Collapse>
