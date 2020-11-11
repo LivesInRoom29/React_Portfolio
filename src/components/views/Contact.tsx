@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Button from "react-bootstrap/Button";
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import phoneFilled from '@iconify-icons/carbon/phone-filled';
 import documentPdf from '@iconify-icons/carbon/document-pdf';
 import githubIcon from '@iconify-icons/simple-icons/github';

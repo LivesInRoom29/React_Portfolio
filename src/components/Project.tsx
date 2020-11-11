@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import githubIcon from '@iconify-icons/simple-icons/github';
 import Button from "react-bootstrap/Button";
 
@@ -16,9 +16,7 @@ interface ProjectProps {
 }
 
 const Project = (props: ProjectProps) => {
-
   return (
-
     <Row className="project-row">
       <Col sm="12" md="5">
         <h2 className="project-heading">{props.name}</h2>
@@ -36,16 +34,7 @@ const Project = (props: ProjectProps) => {
         </Button>
       </Col>
     </Row>
-
-
-
-    //
-    //
-
-
-    // </>
   )
-
 }
 
 export default Project;

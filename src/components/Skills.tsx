@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import html5Icon from '@iconify-icons/simple-icons/html5';
 import css3Icon from '@iconify-icons/simple-icons/css3';
 import javascriptIcon from '@iconify-icons/simple-icons/javascript';

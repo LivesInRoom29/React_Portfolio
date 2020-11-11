@@ -15,7 +15,7 @@ div.home-buttons {
   margin-top: 30px;
 }
 
-a.home-button, button.home-button {
+button.home-button {
   background-color: rgba(255, 255, 255, 0);
   border: none;
   margin: 20px;
@@ -24,9 +24,14 @@ a.home-button, button.home-button {
   text-align: center;
 }
 
-a.home-button:hover, button.home-button:hover {
+button.home-button:hover {
   background-color: rgba(245, 245, 245, 0.255);
   color: darkslategrey
+}
+
+/* set background of <a> to completely transparent */
+a.home-button, a.home-button:hover {
+  background-color: rgba(255, 255, 255, 0);
 }
 
 img.home-img {
