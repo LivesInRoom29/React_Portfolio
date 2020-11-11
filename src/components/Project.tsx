@@ -26,10 +26,10 @@ const Project = (props: ProjectProps) => {
         <p>{props.description}</p>
         <h3 className="project-heading">Tech Used</h3>
         <p>{props.techUsed}</p>
-        <Button href={`${props.deployed}`} className="project-link">
+        <Button href={`${props.deployed}`} target="_blank" className="project-link">
           Deployed Site
         </Button>
-        <Button href={`${props.repo}`} className="project-link">
+        <Button href={`${props.repo}`} target="_blank" className="project-link">
           <Icon icon={githubIcon} className="project-link" />
         </Button>
       </Col>
