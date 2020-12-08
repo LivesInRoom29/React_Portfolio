@@ -20,7 +20,7 @@ const About = () => (
           </Col>
           <Col lg="8">
             <p className="p-about">
-              Hello there! My name is Molly and I currently teach high school science in Maine. In anticipation for a future career change, I'm studying full-stack web development through the UNH Coding Boot Camp (along with some Edx and Udemy courses on the side).
+              Hello there! My name is Molly and I'm a full stack web developer who loves to solve puzzles. I currently teach high school science in Maine, but I'm looking to change careers having recently earned my certificate of completion from the UNH Coding Bootcamp.
             </p>
           </Col>
         </Row>
