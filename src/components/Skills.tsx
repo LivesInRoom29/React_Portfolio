@@ -11,6 +11,7 @@ import nodeDotJs from '@iconify-icons/simple-icons/node-dot-js';
 import npmIcon from '@iconify-icons/simple-icons/npm';
 import mysqlIcon from '@iconify-icons/simple-icons/mysql';
 import mongodbIcon from '@iconify-icons/simple-icons/mongodb';
+import reactIcon from '@iconify-icons/simple-icons/react';
 import githubIcon from '@iconify-icons/simple-icons/github';
 import herokuIcon from '@iconify-icons/simple-icons/heroku';
 
@@ -31,6 +32,7 @@ const Skills = () => {
             <Icon icon={npmIcon} className="svgicon" />
             <Icon icon={mysqlIcon} className="svgicon" />
             <Icon icon={mongodbIcon} className="svgicon" />
+            <Icon icon={reactIcon} className="svgicon"/>
             <Icon icon={githubIcon} className="svgicon" />
             <Icon icon={herokuIcon} className="svgicon" />
           </Col>
