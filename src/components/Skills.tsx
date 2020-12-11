@@ -25,6 +25,7 @@ const Skills = () => {
             <h2 className="vertical">SKILLS</h2>
           </Col>
           <Col md="8" sm="11" className="icon-col">
+            {/* Each skill icon has a tooltip associated with it that shows on hover */}
             <Icon icon={html5Icon} className="svgicon" data-tip data-for="html"/>
             <ReactTooltip id="html" place="bottom" effect="solid">
               HTML5
