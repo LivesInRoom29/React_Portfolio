@@ -9,6 +9,7 @@ Portfolio page; includes an overview of some of the projects that I've done as w
 * [Create-React-App](https://create-react-app.dev/)
 * [React-Bootstrap](https://www.npmjs.com/package/react-bootstrap)
 * [React-Router-Dom](https://www.npmjs.com/package/react-router-dom)
+* [React-Tooltip](https://www.npmjs.com/package/react-tooltip)
 * [ESLint](https://eslint.org/)
 * [TypeScript](https://www.typescriptlang.org/)
 * [GH-Pages](https://www.npmjs.com/package/gh-pages)
