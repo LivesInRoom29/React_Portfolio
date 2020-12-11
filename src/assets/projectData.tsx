@@ -1,6 +1,15 @@
 const projectData = [
   {
     type: "group",
+    name: "ConnectChore",
+    repo: "https://github.com/LivesInRoom29/ConnectChore",
+    deployed: "https://connectchore.herokuapp.com",
+    image: "./img/connectChorePic.jpg",
+    description: "Provides incentives to kids (and adults) for getting chores done by pairing task lists with rewards and includes an integrated game for family members to compete for special prizes.",
+    techUsed: "React, Redux, React-Bootstrap, MongoDb Atlas, Mongoose, Axios, Passport, Node, Express; Deployed with Heroku",
+  },
+  {
+    type: "group",
     name: "Ascent Sobriety Tracker",
     repo: "https://github.com/LivesInRoom29/Acent-Sobriety-Tracker",
     deployed: "https://ascent-sobriety.herokuapp.com/",
@@ -16,15 +25,6 @@ const projectData = [
     image: "./img/highCard.gif",
     description: "A relationship saver! This app helps couples, friends, and roommates fairly choose who picks dinner, and find quality dinner choices.",
     techUsed: "HTML, CSS, Materialize, JavaScript, jQuery, Moment.js, Animate.CSS, Chart.js, and multiple API calls",
-  },
-  {
-    type: "group",
-    name: "Project 3",
-    repo: "#",
-    deployed: "#",
-    image: "http://placeimg.com/640/640/tech",
-    description: "Coming Soon!",
-    techUsed: "...",
   },
   {
     type: "individual",
