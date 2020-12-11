@@ -11,8 +11,7 @@ const Resume = () => (
       <h1>Resume</h1>
       <Container>
         <Row>
-          <iframe src="https://drive.google.com/file/d/1SUefx5VxAWm_nkzDXKzf5SeBv4XX3L11/preview" title="resume" width="640" height="480"></iframe>
-        </Row>
+        <iframe src="https://drive.google.com/file/d/1BN5siuFabvaIGQc6vKXYFhsjMbJbW--f/preview" title="resume" width="640" height="480"></iframe>        </Row>
       </Container>
       <Footer />
     </div>
