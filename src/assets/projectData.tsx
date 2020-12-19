@@ -58,7 +58,7 @@ const projectData = [
     type: "individual",
     name: "Daily Planner",
     repo: "https://github.com/LivesInRoom29/Daily_Planner",
-    deployed: "https://livesinroom29.github.io/Weather_Dashboard/",
+    deployed: "https://livesinroom29.github.io/Daily_Planner/",
     image: "./img/plannerScreenShot.jpg",
     description: "A daily calendar that provides a way for the user to plan their work day; saves calendar input in local storage.",
     techUsed: "HTML, JavaScript, jQuery, Moment.js",
