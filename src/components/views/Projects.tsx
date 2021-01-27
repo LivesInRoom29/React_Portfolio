@@ -11,7 +11,7 @@ const Projects = () => {
     <div className="main-container">
       <Navigation />
       <h1 className="project-heading">Projects</h1>
-      {projectData.map(({ type, name, repo, deployed, image, description, techUsed }) => (
+      {projectData.map(({ type, name, repo, deployed, image, description, techUsed, login }) => (
         <Project
           type={type}
           name={name}
@@ -20,6 +20,7 @@ const Projects = () => {
           image={image}
           description={description}
           techUsed={techUsed}
+          login={login}
         />
       ))}
       <Footer />
