@@ -16,6 +16,9 @@ interface ProjectProps {
   login: boolean
 }
 
+// This component takes in the project data as props and uses it to populate the
+// sections on the Projects page with the information for each one.
+
 const Project = (props: ProjectProps) => {
   const { name, image, description, techUsed, deployed, repo, login } = props;
 
@@ -25,7 +28,7 @@ const Project = (props: ProjectProps) => {
         <h2 className="project-heading">{name}</h2>
         <img src={image} alt={name} className="project-img"></img>
       </Col>
-      <Col sm="12" md="7" className="md-6 sm-12">
+      <Col sm="12" md="7" className="md-6 sm-12 project-info">
         <p>{description}</p>
         <h3 className="project-heading">Tech Used</h3>
         <p>{techUsed}</p>
@@ -36,8 +39,9 @@ const Project = (props: ProjectProps) => {
           <Icon icon={githubIcon} className="project-link" />
         </Button>
 
+        {/* If there is a login for the deployed project, add this code with demo credentials. */}
         {login &&
-          <p>To login for a demo, use the email demo123@demo.com and password test123.</p>
+          <p className="login">To login for a demo, use the email <span className="login">demo123@demo.com</span> and password <span className="login">test123.</span></p>
         }
       </Col>
     </Row>
