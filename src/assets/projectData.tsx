@@ -10,6 +10,16 @@ const projectData = [
     login: true
   },
   {
+    type: "individual",
+    name: "Biology Class Website",
+    repo: "https://github.com/LivesInRoom29/ClassWebsite",
+    deployed: "https://livesinroom29.github.io/ClassWebsite/",
+    image: "./img/BioClass.jpg",
+    description: "A web application that provides resources for my students and their parents without having to login to Google Classroom. There are some class specific doccuments such as course outlines and weekly plans as well as useful tools such as a grade calculator.",
+    techUsed: "HTML, CSS, Bootstrap, JavaScript, jQuery",
+    login: false
+  },
+  {
     type: "group",
     name: "Ascent Sobriety Tracker",
     repo: "https://github.com/LivesInRoom29/Acent-Sobriety-Tracker",
